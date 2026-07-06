@@ -1,10 +1,20 @@
 # ecom-image-to-prompt
 
-[English](./README.en.md) · [下载 v0.1.0 Skill ZIP](./dist/ecom-image-to-prompt-v0.1.0.zip) · [SHA-256](./dist/SHA256SUMS)
+[零基础使用指南](./docs/BEGINNER_GUIDE.zh-CN.md) · [English](./README.en.md) · [下载 v0.1.0 Skill ZIP](./dist/ecom-image-to-prompt-v0.1.0.zip) · [SHA-256](./dist/SHA256SUMS)
 
 一个面向 Codex 的电商图片反推 Skill：上传成品电商参考图或纯商品素材，直接得到完整中文拆版规格、正向 Prompt 与 Negative Prompt。
 
 它解决的不是“把画面描述成一段摄影提示词”，而是先锁定商品身份、版式骨架、可见文字和转化任务，再生成可以执行的电商视觉 Prompt。
+
+## 零基础先看这里
+
+你可以把它理解成一位“电商视觉拆解师”：
+
+```text
+上传图片 → 判断图片类型 → 锁定商品 → 拆解版式和文字 → 输出正向 Prompt + Negative Prompt → 交给生图模型
+```
+
+你不需要会写代码。第一次使用前，建议阅读 [《从一张图片到 Prompt：零基础使用指南》](./docs/BEGINNER_GUIDE.zh-CN.md)，里面包含完整链路图、母婴海报示例、安装步骤和常见问题。
 
 ## 适合什么任务
 
