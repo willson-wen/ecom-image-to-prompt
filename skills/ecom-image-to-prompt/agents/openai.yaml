@@ -1,0 +1,4 @@
+interface:
+  display_name: "电商图片反推 Prompt"
+  short_description: "上传电商图或商品图，输出完整中文拆版规格与生成提示词"
+  default_prompt: "使用 $ecom-image-to-prompt 分析我上传的图片，输出完整拆版规格、正向 Prompt 和 Negative Prompt。"
